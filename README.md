@@ -150,16 +150,14 @@ Start the server
   flask run
 ```
 
-<hr />
-
 Open [http://127.0.0.1:5000/](http://127.0.0.1:5000/) with your browser to see the result.
+
+<!-- <hr /> -->
 
 <!-- Deployment -->
 ### :triangular_flag_on_post: Deployment
 
-To deploy this project run
-
-##### Deploy on Pythonanywhere
+ Deploy on Pythonanywhere
 
 ![](https://img.shields.io/badge/Pythonanywhere-000000?style=for-the-badge&logo=Python&logoColor=white)
 
