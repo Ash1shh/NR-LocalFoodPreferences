@@ -1,0 +1,24 @@
+.back{
+   background-color:#ffe0f7; 
+   text-align: center;
+   
+}
+.h1{
+    font-size: 2rem;
+    margin-top: 5rem;
+    align-content: center;
+    font-family:'Merriweather',serif;
+    color:#251f44;
+}
+.para{
+    font-family: 'Open Sans',sans-serif;
+    font-size:1rem;
+    color:#251f44;
+    text-align: center;
+}
+.btn{
+    color:#df5e88;
+}
+
+
+

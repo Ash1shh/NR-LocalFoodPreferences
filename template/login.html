@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>Login Page</title>
+    <!-- plugins:css -->
+    <link
+      rel="stylesheet"
+      href="../static/assets/vendors/iconfonts/mdi/css/materialdesignicons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../static/assets/vendors/iconfonts/ionicons/dist/css/ionicons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../static/assets/vendors/iconfonts/flag-icon-css/css/flag-icon.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../static/assets/vendors/css/vendor.bundle.base.css"
+    />
+    <link
+      rel="stylesheet"
+      href="../static/assets/vendors/css/vendor.bundle.addons.css"
+    />
+    <!-- endinject -->
+    <!-- plugin css for this page -->
+    <!-- End plugin css for this page -->
+    <!-- inject:css -->
+    <link rel="stylesheet" href="../static/assets/css/shared/style.css" />
+    <!-- endinject -->
+    <link rel="shortcut icon" href="../static/assets/images/favicon.ico" />
+    <!-- Layout styles -->
+    <link rel="stylesheet" href="../static/assets/css/demo_1/style.css" />
+    <!-- End Layout styles -->
+    <link rel="shortcut icon" href="../static/assets/images/favicon.ico" />
+    <link href="../static/img/favicon.ico" rel="icon" />
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Nunito:wght@600;700;800&family=Pacifico&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Icon Font Stylesheet -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
+
+    <!-- Libraries Stylesheet -->
+    <link href="../static/lib/animate/animate.min.css" rel="stylesheet" />
+    <link
+      href="../static/lib/owlcarousel/assets/owl.carousel.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="../static/lib/tempusdominus/css/tempusdominus-bootstrap-4.min.css"
+      rel="stylesheet"
+    />
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="../static/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Template Stylesheet -->
+    <link href="../static/css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="container-scroller">
+      <nav
+        class="navbar navbar-expand-lg navbar-dark bg-dark px-4 px-lg-5 py-3 py-lg-0"
+      >
+        <a href="" class="navbar-brand p-0">
+          <h1 class="text-primary m-0">
+            Local Food Preferences
+          </h1>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse"
+        >
+          <span class="fa fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="navbar-nav ms-auto py-0 pe-4">
+            <a href="{{url_for('index')}}" class="nav-item nav-link active"
+              >Home</a
+            >
+            <a href="{{url_for('about')}}" class="nav-item nav-link">About</a>
+            <!-- <a href="service.html" class="nav-item nav-link">Service</a> -->
+            <a href="{{url_for('menu')}}" class="nav-item nav-link">Menu</a>
+            <!-- <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="booking.html" class="dropdown-item">Booking</a>
+                            <a href="team.html" class="dropdown-item">Our Team</a>
+                            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+                        </div>
+                    </div> -->
+            <a href="{{url_for('contact')}}" class="nav-item nav-link"
+              >Contact</a
+            >
+          </div>
+          <a href="{{url_for('signin')}}" class="btn btn-primary py-2 px-4"
+            >Login / SignUp</a
+          >
+        </div>
+      </nav>
+      <div class="container-fluid page-body-wrapper full-page-wrapper">
+        <div
+          class="content-wrapper d-flex align-items-center auth auth-bg-1 theme-one"
+        >
+          <br /><br /><br /><br /><br />
+          <div class="row w-100" style="margin-top: 80px">
+            <div class="col-lg-4 mx-auto">
+              <div class="auto-form-wrapper">
+                <form action="#">
+                  <div class="form-group">
+                    <label class="label">Username</label>
+                    <div class="input-group">
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Username"
+                      />
+                      <div class="input-group-append">
+                        <span class="input-group-text">
+                          <i class="mdi mdi-check-circle-outline"></i>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <label class="label">Password</label>
+                    <div class="input-group">
+                      <input
+                        type="password"
+                        class="form-control"
+                        placeholder="*********"
+                      />
+                      <div class="input-group-append">
+                        <span class="input-group-text">
+                          <i class="mdi mdi-check-circle-outline"></i>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-group">
+                    <button class="btn btn-primary submit-btn btn-block">
+                      Login
+                    </button>
+                  </div>
+                  <div class="form-group d-flex justify-content-between">
+                    <div class="form-check form-check-flat mt-0">
+                      <label class="form-check-label">
+                        <input
+                          type="checkbox"
+                          class="form-check-input"
+                          checked
+                        />
+                        Keep me signed in
+                      </label>
+                    </div>
+                    <a href="#" class="text-small forgot-password text-black"
+                      >Forgot Password</a
+                    >
+                  </div>
+                  <div class="text-block text-center my-3">
+                    <span class="text-small font-weight-semibold"
+                      >Not a member ?</span
+                    >
+                    <a href="{{url_for('signin')}}" class="text-black text-small"
+                      >Create new account</a
+                    >
+                  </div>
+                </form>
+              </div>
+              <ul class="auth-footer">
+                <li>
+                  <a href="#">Conditions</a>
+                </li>
+                <li>
+                  <a href="#">Help</a>
+                </li>
+                <li>
+                  <a href="#">Terms</a>
+                </li>
+              </ul>
+              <p class="footer-text text-center">
+                copyright © 2022 NR local food Preferenes. All rights reserved.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- content-wrapper ends -->
+      </div>
+      <!-- page-body-wrapper ends -->
+    </div>
+    <!-- container-scroller -->
+    <!-- plugins:js -->
+    <script src="../static/assets/vendors/js/vendor.bundle.base.js"></script>
+    <script src="../static/assets/vendors/js/vendor.bundle.addons.js"></script>
+    <!-- endinject -->
+    <!-- inject:js -->
+    <!-- <script src="../static/assets/js/shared/off-canvas.js"></script> -->
+    <!-- <script src="../static/assets/js/shared/misc.js"></script> -->
+    <!-- endinject -->
+    <script
+      src="../static/assets/js/shared/jquery.cookie.js"
+      type="text/javascript"
+    ></script>
+  </body>
+</html>
