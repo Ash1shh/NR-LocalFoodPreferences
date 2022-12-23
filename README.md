@@ -161,7 +161,7 @@ Open [http://127.0.0.1:5000/](http://127.0.0.1:5000/) with your browser to see t
 
 ![](https://img.shields.io/badge/Pythonanywhere-000000?style=for-the-badge&logo=Python&logoColor=white)
 
-The easiest way to deploy your Python app is to use the [Pythonanywhere](https://help.pythonanywhere.com/pages/).
+The easiest way to deploy your Flask is to use the [Pythonanywhere](https://help.pythonanywhere.com/pages/).
 
 PythonAnywhere is an online integrated development environment and web hosting service based on the Python programming language. Founded by Giles Thomas and Robert Smithson in 2012, it provides in-browser access to server-based Python and Bash command-line interfaces, along with a code editor with syntax highlighting.
 
