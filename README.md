@@ -155,7 +155,7 @@ Open [http://127.0.0.1:5000/](http://127.0.0.1:5000/) with your browser to see t
 <!-- <hr /> -->
 
 <!-- Deployment -->
-### :triangular_flag_on_post: Deployment
+## :triangular_flag_on_post: Deployment
 
  Deploy on Pythonanywhere
 
